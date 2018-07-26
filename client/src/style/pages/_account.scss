@@ -1,0 +1,72 @@
+.Account{
+    aside{
+        float: left;
+        width: 20% ;
+        a{
+            font-size: 20px;
+            display: block;
+            text-align: left;
+            width: 80%;
+            margin: 10px auto;
+            border-bottom: 4px solid $dark-purple;
+            padding: 10px 2px;
+            box-sizing: border-box;
+            transition: .2s;
+            &:hover{
+                background: $light-purple;
+            }
+        }
+    }
+}
+.container{
+    float: right;
+    width: 80%;
+}
+
+h1{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.new-post{
+    form{
+        width: 80%;
+        margin: 20px auto;
+
+    }
+    input{
+        font-size: 18px;
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+        border: none;
+        border-bottom: 1px solid $light-purple;
+        text-align: center;
+        outline: none;
+        &::placeholder{
+
+        }
+    }
+    textarea{
+        width: 100% !important;
+        box-sizing: border-box;
+        min-height: 300px;
+        border: 1px solid #ddd;
+        display: block;
+        font-size: 16px;
+        outline: none;
+
+
+    }
+    button{
+        width: 60%;
+        display: block;
+        background: $dark-purple;
+        border-bottom: 4px solid $light-purple;
+        margin: 20px auto;
+        font-size: 18px;
+        line-height: 26px;
+        cursor: pointer;
+    }
+
+}

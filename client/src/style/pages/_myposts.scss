@@ -1,0 +1,28 @@
+.My-Posts{
+    width: 80%;
+    margin: auto;
+    h1{
+        font-size: 22px;
+    }
+    .post{
+        margin-top: 20px;
+        text-align: left;
+    }
+    h3{
+        font-weight: 600;
+        &:first-letter{
+            text-transform: uppercase;
+        }
+        span{
+            float: right;
+            color: darkred;
+            display: none;
+            cursor: pointer;
+            user-select: none;
+        }
+        &:hover span{
+            display: block;
+        }
+    }
+
+}

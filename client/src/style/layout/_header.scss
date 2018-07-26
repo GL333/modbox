@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: $dark-purple;
+    border-bottom: 5px solid $light-purple;
+    h1{
+        font-size: 24px;
+        color: #fff;
+    }
+    a{
+        margin:0 15px;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+
+    }
+}
